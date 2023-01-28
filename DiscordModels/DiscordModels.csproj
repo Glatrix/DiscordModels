@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+	<PackageId>DiscordModels</PackageId>
+	<Version>1.0.4</Version>
+	<Authors>Glatrix</Authors>
+	<Description>
+	Discord API Models for JSON Serialization. (Discord API v9)
+	</Description>
+  </PropertyGroup>
+
+</Project>
