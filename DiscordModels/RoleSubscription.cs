@@ -2,8 +2,8 @@
 namespace DiscordAPIModels;
 public class RoleSubscription
 {
-    public ulong? role_subscription_listing_id;
-    public string? tier_name;
-    public int? total_months_subscribed;
-    public bool? is_renewal;
+    public ulong? role_subscription_listing_id { get; set; }
+    public string? tier_name { get; set; }
+    public int? total_months_subscribed { get; set; }
+    public bool? is_renewal { get; set; }
 }

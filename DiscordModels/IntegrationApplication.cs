@@ -2,9 +2,9 @@
 namespace DiscordAPIModels;
 public class IntegrationApplication
 {
-    public ulong id;
-    public string name;
-    public string? icon;
-    public string description;
-    public User? bot;
+    public ulong id { get; set; }
+    public string name { get; set; }
+    public string? icon { get; set; }
+    public string description { get; set; }
+    public User? bot { get; set; }
 }

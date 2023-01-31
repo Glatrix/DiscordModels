@@ -2,15 +2,15 @@ using Newtonsoft.Json;
 namespace DiscordAPIModels;
 public class GuildMember
 {
-    public User? user;
-    public string? nick;
-    public string? avatar;
-    public ulong[] roles;
-    public DateTimeOffset joined_at;
-    public DateTimeOffset? premium_since;
-    public bool deaf;
-    public bool mute;
-    public bool? pending;
-    public string? permissions;
-    public DateTimeOffset? communication_disabled_until;
+    public User? user { get; set; }
+    public string? nick { get; set; }
+    public string? avatar { get; set; }
+    public ulong[] roles { get; set; }
+    public DateTimeOffset joined_at { get; set; }
+    public DateTimeOffset? premium_since { get; set; }
+    public bool deaf { get; set; }
+    public bool mute { get; set; }
+    public bool? pending { get; set; }
+    public string? permissions { get; set; }
+    public DateTimeOffset? communication_disabled_until { get; set; }
 }

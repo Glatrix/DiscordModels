@@ -2,29 +2,29 @@
 
 public class Application
 {
-    public ulong id;
-    public string? name;
-    public string? icon;
-    public string? description;
-    public List<string>? rpc_origins;
-    public bool bot_public;
-    public bool bot_require_code_grant;
-    public string? terms_of_service_url;
-    public string? privacy_policy_url;
-    public User? owner;
+    public ulong id { get; set; }
+    public string? name { get; set; }
+    public string? icon { get; set; }
+    public string? description { get; set; }
+    public List<string>? rpc_origins { get; set; }
+    public bool bot_public { get; set; }
+    public bool bot_require_code_grant { get; set; }
+    public string? terms_of_service_url { get; set; }
+    public string? privacy_policy_url { get; set; }
+    public User? owner { get; set; }
     [Obsolete("marked as obsolete in discord docs")]
-    public string? summary;
-    public string? verify_key;
-    public Team? team;
-    public ulong? guild_id;
-    public ulong? primary_sku_id;
-    public string? slug;
-    public string? cover_image;
-    public ApplicationFlags flags;
-    public List<string>? tags;
-    public InstallParams? install_params;
-    public string? custom_install_url;
-    public string? role_connections_verification_url;
+    public string? summary { get; set; }
+    public string? verify_key { get; set; }
+    public Team? team { get; set; }
+    public ulong? guild_id { get; set; }
+    public ulong? primary_sku_id { get; set; }
+    public string? slug { get; set; }
+    public string? cover_image { get; set; }
+    public ApplicationFlags flags { get; set; }
+    public List<string>? tags { get; set; }
+    public InstallParams? install_params { get; set; }
+    public string? custom_install_url { get; set; }
+    public string? role_connections_verification_url { get; set; }
 }
 
 [Flags]
@@ -44,6 +44,6 @@ public enum ApplicationFlags
 
 public class InstallParams
 {
-    public List<string>? scopes;
-    public string? permissions;
+    public List<string>? scopes { get; set; }
+    public string? permissions { get; set; }
 }

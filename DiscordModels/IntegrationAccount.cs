@@ -2,6 +2,6 @@
 namespace DiscordAPIModels;
 public class IntegrationAccount
 {
-    public string id;
-    public string name;
+    public string id { get; set; }
+    public string name { get; set; }
 }
