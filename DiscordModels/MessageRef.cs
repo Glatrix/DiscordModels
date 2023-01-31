@@ -2,8 +2,8 @@
 namespace DiscordAPIModels;
 public class MessageRef
 {
-    public ulong? activity;
-    public ulong? channel_id;
-    public ulong? guild_id;
-    public bool? fail_if_not_exists;
+    public ulong? activity { get; set; }
+    public ulong? channel_id { get; set; }
+    public ulong? guild_id { get; set; }
+    public bool? fail_if_not_exists { get; set; }
 }

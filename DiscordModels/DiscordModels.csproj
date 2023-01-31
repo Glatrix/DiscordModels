@@ -4,8 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.2</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
@@ -13,11 +19,12 @@
   
   <PropertyGroup>
 	<PackageId>DiscordModels</PackageId>
-	<Version>1.0.4</Version>
+	<Version>1.0.6</Version>
 	<Authors>Glatrix</Authors>
-	<Description>
-	Discord API Models for JSON Serialization. (Discord API v9)
-	</Description>
+	<Description>Discord API Models for JSON Serialization. (Discord API v9)</Description>
+	<PackageProjectUrl>https://github.com/Glatrix/DiscordModels</PackageProjectUrl>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<Title>DiscordModels</Title>
   </PropertyGroup>
 
 </Project>

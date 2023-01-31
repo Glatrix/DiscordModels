@@ -2,6 +2,6 @@
 namespace DiscordAPIModels;
 public class Ban
 {
-    public string? reason;
-    public User user;
+    public string? reason { get; set; }
+    public User user { get; set; }
 }

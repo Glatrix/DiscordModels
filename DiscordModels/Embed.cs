@@ -5,19 +5,19 @@ using System.Text.Json.Serialization;
 namespace DiscordAPIModels;
 public class Embed
 {
-    public string? title;
-    public string? type;
-    public string? description;
-    public string? url;
-    public DateTime? timestamp;
-    public int color;
-    public EmbedFooter? footer;
-    public EmbedImage? image;
-    public EmbedThumbnail? thumbnail;
-    public EmbedVideo? video;
-    public EmbedProvider? provider;
-    public EmbedAuthor? author;
-    public List<EmbedField>? fields;
+    public string? title { get; set; }
+    public string? type { get; set; }
+    public string? description { get; set; }
+    public string? url { get; set; }
+    public DateTime? timestamp { get; set; }
+    public int color { get; set; }
+    public EmbedFooter? footer { get; set; }
+    public EmbedImage? image { get; set; }
+    public EmbedThumbnail? thumbnail { get; set; }
+    public EmbedVideo? video { get; set; }
+    public EmbedProvider? provider { get; set; }
+    public EmbedAuthor? author { get; set; }
+    public List<EmbedField>? fields { get; set; }
 }
 
 public enum EmbedTypes
@@ -32,54 +32,54 @@ public enum EmbedTypes
 
 public class EmbedThumbnail
 {
-    public string url;
-    public string? proxy_url;
-    public int? height;
-    public int? width;
+    public string url { get; set; }
+    public string? proxy_url { get; set; }
+    public int? height { get; set; }
+    public int? width { get; set; }
 }
 
 public class EmbedVideo
 {
-    public string? url;
-    public string? proxy_url;
-    public int? height;
-    public int? width;
+    public string? url { get; set; }
+    public string? proxy_url { get; set; }
+    public int? height { get; set; }
+    public int? width { get; set; }
 }
 
 public class EmbedImage
 {
-    public string url;
-    public string? proxy_url;
-    public int? height;
-    public int? width;
+    public string url { get; set; }
+    public string? proxy_url { get; set; }
+    public int? height { get; set; }
+    public int? width { get; set; }
 }
 
 public class EmbedProvider
 {
-    public string name;
-    public string? url;
-    public string? icon_url;
-    public string? proxy_icon_url;
+    public string name { get; set; }
+    public string? url { get; set; }
+    public string? icon_url { get; set; }
+    public string? proxy_icon_url { get; set; }
 }
 
 public class EmbedAuthor
 {
-    public string name;
-    public string? url;
-    public string? icon_url;
-    public string? proxy_icon_url;
+    public string name { get; set; }
+    public string? url { get; set; }
+    public string? icon_url { get; set; }
+    public string? proxy_icon_url { get; set; }
 }
 
 public class EmbedFooter
 {
-    public string text;
-    public string? icon_url;
-    public string? proxy_icon_url;
+    public string text { get; set; }
+    public string? icon_url { get; set; }
+    public string? proxy_icon_url { get; set; }
 }
 
 public class EmbedField
 {
-    public string name;
-    public string value;
-    public bool? inline;
+    public string name { get; set; }
+    public string value { get; set; }
+    public bool? inline { get; set; }
 }

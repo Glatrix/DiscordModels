@@ -2,7 +2,7 @@
 namespace DiscordAPIModels;
 public class StickerItem
 {
-    public int id;
-    public string? name;
-    public StickerFormat format_type;
+    public int id { get; set; }
+    public string? name { get; set; }
+    public StickerFormat format_type { get; set; }
 }
