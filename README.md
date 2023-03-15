@@ -1,7 +1,7 @@
 # DiscordModels
 Discord API Models for JSON Serialization. (Discord API v9)
 
-![Nuget](https://www.nuget.org/packages/DiscordModels)
+![Nuget](https://www.nuget.org/packages/DiscordModels/latest)
 
 
 
