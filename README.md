@@ -1,9 +1,7 @@
 # DiscordModels
 Discord API Models for JSON Serialization. (Discord API v9)
 
-![Nuget](https://www.nuget.org/packages/DiscordModels/latest)
-
-
+<img alt="Nuget" src="https://img.shields.io/nuget/v/DiscordModels?label=Nuget">
 
 
 <h3>Disclaimer</h3>
